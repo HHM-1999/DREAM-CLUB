@@ -4,19 +4,17 @@ import './Header.css';
 
 const Header = () => {
     return (
-         <nav className='container d-flex g-2 mt-5'>
+         <nav className='container d-flex g-2 mt-5 shadow-lg p-2 mb-5 bg-body rounded'>
             <div className=' header'>
                 <img src={logo} alt=""></img>
                 
             </div>
-            <div>
-                <h1 className='mt-4 m-2 text-primary'>The-Dream-Club</h1>
-                <h5 className='mt-4 '>Select Today's Exercise</h5>
-                {/* <div className='mt-4 text'>
-                  <a href="./tutorial">Tutorial</a>
-            </div> */}
-            
+            <div className='Tutorial'>
+                <h1 className='mt-3 text-primary'>The-Dream-Club</h1>
+                <a href="./tutorial" >Tutorial</a>
             </div>
+          
+           
             
             
             

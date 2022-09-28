@@ -1,8 +1,13 @@
 .header{
-    margin:10px;
-
+  
+    height: 40px;
+    background-color: white;
 }
 
 .header img{
-    width: 80px;
+    width: 90px;
+}
+.Tutorial{
+    display: flex;
+    text-align: center;
 }
