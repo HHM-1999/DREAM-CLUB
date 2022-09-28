@@ -65,23 +65,37 @@ const Items = () => {
           <div className='Drawer p-5 mt-0'>
                 <h1>Humaira</h1>
                 <h4>Junior Web Devoloper</h4>
-                <br>
-                </br>
-                <h6>Add a break</h6>
-                <div className='d-flex g-4'>
+                
+                <h5 className='mt-4'> Add a break</h5>
+                <div className='d-flex g-5'>
                     <button className='btn btn-outline-danger text-black rounded-5'>10s</button>
                     <button className='btn btn-outline-danger text-black rounded-5'>20s</button>
                     <button className='btn btn-outline-danger text-black rounded-5'>30s</button>
                     <button className='btn btn-outline-danger text-black rounded-5'>40s</button>
                     <button className='btn btn-outline-danger text-black rounded-5'>50s</button>
                 </div>
-                <h6>Exercise Details</h6>
-                <div></div>
+                <div>
+                    <h5 className='mt-5'>Exercise Details</h5>
+                    <div>
+                        <span className='text-primary mt-5'>Exercise Time : </span>
+                         <input type ="text" value=""></input>
+                    </div>
+                      <div>
+                        <span className='text-primary mt-5'>Break Time : </span>
+                         <input type ="text" value=""></input>
+                    </div>
+                      <div className='mt-5'>
+                        <button className='btn btn-primary text-white rounded-5 p-3'>Activity Completed</button>
+                   </div>
+                     
+                
 
             </div>
         
                  
-        </div>
+            </div>
+            </div>
+        
         
            
            
