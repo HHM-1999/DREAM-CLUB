@@ -1,7 +1,7 @@
 import React from 'react';
-import './Ques.css';
+import './Ques1.css';
 
-const Ques = () => {
+const Ques1 = () => {
     return (
         <div className='container'>
             <h3>1. How does React Work? </h3>
@@ -10,4 +10,4 @@ const Ques = () => {
     );
 };
 
-export default Ques;
+export default Ques1;
