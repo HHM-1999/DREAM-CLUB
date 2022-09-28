@@ -1,7 +1,7 @@
 import './App.css';
 import Items from './Componants/card/Items';
 import Header from './Componants/Header/Header';
-import Ques from './Componants/questions/Ques';
+import Ques from './Componants/questions 1/Ques';
 
 function App() {
   return (
