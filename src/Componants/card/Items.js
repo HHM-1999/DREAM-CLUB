@@ -3,7 +3,7 @@ import './Items.css';
 
 const Items = () => {
     return (
-        <div className='container mt-4 d-flex g-0'>
+        <div className='container mt-5 d-flex g-0'>
             <div>
                 <div className="row row-cols-1 row-cols-md-3 g-4 style">
                      <div className='col'>
@@ -60,12 +60,14 @@ const Items = () => {
                     </div>
 
   </div>
-        </div>
+            </div>
+             
           <div className='Drawer p-4 mt-0'>
                 <h1>Humaira</h1>
                 <h5>Junior Web Devoloper</h5>
 
             </div>
+        
                  
         </div>
         
