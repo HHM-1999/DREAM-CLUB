@@ -1,38 +1,38 @@
 [
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image": "https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Baxter Chan",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "2"
+    
   },
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image": "https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Livingston Sanchez",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "1"
+    
   },
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image": "https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Bullock Bush",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "3"
+    
   },
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image": "https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Blankenship Schultz",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "4"
+  
   },
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image": "https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Freida Salinas",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "6"
+    
   },
   {
-    "image": "https://www.freepik.com/photos/gym-equipment",
+    "image":"https://img.freepik.com/free-photo/attractive-young-woman-her-trainer-running-treadmill-gym_496169-2730.jpg?size=626&ext=jpg&ga=GA1.2.89839238.1664401225",
     "activity_name": "Howard Cain",
-    "activity_time": "{time()}",
-    "add_to_button": "{btn()}"
+    "activity_time": "2"
+    
   }
 ]

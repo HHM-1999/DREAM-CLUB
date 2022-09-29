@@ -1,31 +1,36 @@
-import React, { useEffect, useState } from 'react';
+import React  from 'react';
+import Single from '../single/Single';
 
-const Cards = () => {
-    const [card, setCard] = useState([]);
-    useEffect(() => {
-        
-    },[])
+const Cards = (props) => {
+    // console.log(props.carddata);
+
+    const { carddata, duration, setDuration, addtocard } = props;
+    // console.log(addtocard);
+    
+    
+    // const { image, activity_name, activity_time } = props.carddata;
+    // console.log(image,activity_name,activity_time);
+
     return (
-              <div className='container mt-5 g-0'>
-            <div>
+            <div className='container mt-5 g-0'>
+              <div>
                 <div className="row row-cols-1 row-cols-md-3 g-4 style">
-                     <div className='col'>
-                        <div className="card ">
-      {/* <img src="" class="card-img-top" alt="..."> */}
-                            <div className="card-body">
-                                <h5 className="card-title">Dumbells</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p>For Age : 20-25</p>
-                                <p>Time Required: 30s</p>
-                                <button href="#" className='btn btn-primary'>Add To List</button>
-                            </div>
-                        </div>
-                </div>
+                    {
+                        carddata.map(card=>  <Single card={card} duration={duration} setDuration={setDuration} addtocard={addtocard}></Single>)
+                    }
+                    {/* <Single></Single>
+                    <Single></Single>
+                    <Single></Single>
+                    <Single></Single>
+                    <Single></Single>
+                    <Single></Single> 
+                    <Single></Single>
+                    <Single></Single> */}
 
-                     
+                 </div>     
+              </div>
             </div>
-            </div>
-            </div>
+           
     );
 };
 
