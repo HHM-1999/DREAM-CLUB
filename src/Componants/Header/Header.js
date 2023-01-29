@@ -11,7 +11,7 @@ const Header = () => {
 
             </div>
             <div className='Tutorial'>
-                <h1 className='mt-3 text-primary g-4'> Dream Club</h1>
+                <h1 className='mt-3 text-info px-4 g-4'> Dream Club</h1>
 
 
             </div>

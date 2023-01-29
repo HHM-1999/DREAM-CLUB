@@ -8,17 +8,17 @@ const Single = (props) => {
     // console.log(addtocard);
     return (
         <div>
-             <div className='col'>
-                        < div className="card ">
-                            <img src={image} class="card-img-top" alt="..."/>
-                            <div className="card-body">
-                        <h6 className="card-title">{activity_name}</h6>
-                        <p>Time Required:{activity_time}</p>
-                        <button href="#" className='btn btn-primary' onClick={()=> addtocard(activity_time)} >Add To List</button>
-                        
-                            </div>
-                        </div>
+            <div className='col'>
+                < div className="card shadow-lg">
+                    <img src={image} class="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h6 className="card-title text-primary"><b>{activity_name}</b></h6>
+                        <p>Time Required:    {activity_time}</p>
+                        <button href="#" className='btn btn-warning' onClick={() => addtocard(activity_time)} >Add To List</button>
+
                     </div>
+                </div>
+            </div>
         </div>
     );
 };
