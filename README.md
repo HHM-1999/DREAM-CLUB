@@ -1,4 +1,4 @@
-LIVE LINK : https://aquamarine-dusk-627a13.netlify.app/
+# LIVE LINK : https://aquamarine-dusk-627a13.netlify.app/
 
 
 
@@ -7,15 +7,6 @@ LIVE LINK : https://aquamarine-dusk-627a13.netlify.app/
 
 
 
-# Getting Started with Create React App
-
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
